@@ -1,0 +1,66 @@
+﻿  main.cpp
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(17,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+          with
+          [
+              Type2=double
+          ]
+          and
+          [
+              Type=float
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(10,7): message : クラス テンプレート メンバー関数 'Type TemplateClass<Type,double>::Min(void)' のコンパイル中
+          with
+          [
+              Type=float
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(36,117): message : 'main' の 'TemplateClass<float,double>::Min' への最初の参照を参照してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(29,31): message : コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<float,double>' のリファレンスを確認してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(17,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+          with
+          [
+              Type2=int
+          ]
+          and
+          [
+              Type=float
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(10,7): message : クラス テンプレート メンバー関数 'Type TemplateClass<Type,int>::Min(void)' のコンパイル中
+          with
+          [
+              Type=float
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(35,108): message : 'main' の 'TemplateClass<float,int>::Min' への最初の参照を参照してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(28,28): message : コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<float,int>' のリファレンスを確認してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(17,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+          with
+          [
+              Type2=double
+          ]
+          and
+          [
+              Type=int
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(10,7): message : クラス テンプレート メンバー関数 'Type TemplateClass<Type,double>::Min(void)' のコンパイル中
+          with
+          [
+              Type=int
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(34,111): message : 'main' の 'TemplateClass<int,double>::Min' への最初の参照を参照してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(27,29): message : コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<int,double>' のリファレンスを確認してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(17,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+          with
+          [
+              Type2=float
+          ]
+          and
+          [
+              Type=int
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(10,7): message : クラス テンプレート メンバー関数 'Type TemplateClass<Type,float>::Min(void)' のコンパイル中
+          with
+          [
+              Type=int
+          ]
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(33,110): message : 'main' の 'TemplateClass<int,float>::Min' への最初の参照を参照してください
+C:\Users\B2T\Documents\GitHub\PG3\main.cpp(26,28): message : コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<int,float>' のリファレンスを確認してください
+  PG3.vcxproj -> C:\Users\B2T\Documents\GitHub\PG3\x64\Debug\PG3.exe
